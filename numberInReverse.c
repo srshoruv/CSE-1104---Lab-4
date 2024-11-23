@@ -15,7 +15,7 @@ int main()
 
     while (num)
     {
-        long int lastDig = num % 10;
+        int lastDig = num % 10;
         rev = rev * 10 + lastDig;
         
         
