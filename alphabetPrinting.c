@@ -10,7 +10,7 @@ int main()
     int i = 1;
     while (i <= 26) 
     {
-        printf("%c", ch);
+        printf("%c ", ch);
         ch ++;
         i++;
     }
